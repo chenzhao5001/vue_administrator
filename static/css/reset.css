@@ -1,0 +1,113 @@
+*,a,body,dd,div,dl,dt,em,form,h1,h2,h3,h4,h5,h6,img,input,li,ol,p,select,span,strong,table,td,textarea,tr,ul{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	user-select:none;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+	font-size:12px;
+	min-width: 1280px;
+	color:#000000}li,ol,ul{list-style:none}h1,h2,h3,h4,h5,h6{font-size:14px}input,select,textarea{vertical-align:middle}button,em,i,img,input,span,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0)}img{border:none;vertical-align:middle}a,a:hover{text-decoration:none;color:#333333
+}
+body,html{
+	height:100%;
+	width:100%
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+em,i{
+	font-style:normal
+}
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.clear:after {
+    display: block;
+	height: 0;
+	width:0;
+	content: "";
+	visibility:hidden;
+    clear: both
+}
+
+input{
+	background:none;
+	outline:none;
+	border:none
+}
+input:-webkit-autofill{	
+	-webkit-box-shadow: 0 0 0 1000px #fff inset;-webkit-text-fill-color: #333}
+	
+.el-loading-spinner .el-loading-text{
+     color:#00b80c !important;
+ }   
+ .el-loading-spinner .path{
+stroke: #00b80c  !important;
+ }
+ table.el-table__body,  .el-table__header {
+	border-spacing: 0px 9px;
+ }
+ table.el-table__header {
+	border-spacing: 0px 0px;
+ }
